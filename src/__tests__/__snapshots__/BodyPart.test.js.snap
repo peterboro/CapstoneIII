@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders body part correctly 1`] = `
+<div
+  className="bodyPart-card css-1gwnsqj-MuiStack-root"
+  onClick={[Function]}
+  type="button"
+>
+  <img
+    alt="dumbbell"
+    src={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "compare": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    style={
+      Object {
+        "height": "40px",
+        "width": "40px",
+      }
+    }
+  />
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-wtph2a-MuiTypography-root"
+  >
+     
+  </p>
+</div>
+`;
