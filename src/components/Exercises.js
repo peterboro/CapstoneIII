@@ -7,8 +7,8 @@ import ExerciseCard from './ExerciseCard';
 import Loader from './Loader';
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [exercisesPerPage] = useState(9);
+  const [currentPage, setCurrentPage] = useState(2);
+  const [exercisesPerPage] = useState(6);
 
   useEffect(() => {
     const fetchExercisesData = async () => {
@@ -47,7 +47,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         ))}
       </Stack>
       <Stack sx={{ mt: { lg: '114px', xs: '70px' } }} alignItems="center">
-        {exercises.length > 9 && (
+        {exercises.length > 6 && (
           <Pagination
             color="standard"
             shape="rounded"
@@ -55,7 +55,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             count={Math.ceil(exercises.length / exercisesPerPage)}
             page={currentPage}
             onChange={paginate}
-            size="large"
+            size="small"
           />
         )}
       </Stack>

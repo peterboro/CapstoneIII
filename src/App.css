@@ -12,6 +12,40 @@ body {
   width: 0;
 }
 
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #0f0e0e;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 200px;
+}
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.search-btn:hover {
+  color: #131212 !important;
+  border: 1px solid #0f0f0f !important;
+}
+
 @media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
@@ -23,8 +57,20 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
   .exercise-card {
-    width: 280px;
+    width: 200px;
+    height: 400px;
+    background: #fff;
+    border-top: 4px solid #0f0e0e;
+    border-bottom-left-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+    gap: 0;
   }
 }

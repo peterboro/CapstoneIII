@@ -35,9 +35,9 @@ In order to obtain a local copy of this repository run:
 - You can run test suites on this project by running `npm test`
 
 ## Live Demo
+[getyourphysique](https://get-your-physique.netlify.app/)
 
-
-
+[VideoLink](https://www.loom.com/share/92b45c580895460f985d0b17faf7e021)
 ## Live Preview
 
 
@@ -57,6 +57,10 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to all of my code reviewers and partners at Microverse, for your support, advice and inspiration. To the creators of the ExerciseDB API. Made according to design guidelines by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 

@@ -41,7 +41,7 @@ exports[`App Renders Correctly 1`] = `
     >
       <img
         alt="logo"
-        src="Logo2.png"
+        src="dumbbell.png"
         style={
           Object {
             "height": "48px",
@@ -243,12 +243,12 @@ exports[`App Renders Correctly 1`] = `
     >
       <img
         alt="logo"
-        src="Logo2.png"
+        src="dumbbell.png"
         style={
           Object {
-            "height": "100px",
+            "height": "50px",
             "margin": "0 20px",
-            "width": "100px",
+            "width": "50px",
           }
         }
       />
@@ -256,7 +256,7 @@ exports[`App Renders Correctly 1`] = `
     <h5
       className="MuiTypography-root MuiTypography-h5 css-amfix2-MuiTypography-root"
     >
-      Capstone Project
+      Fitness Gym
     </h5>
   </div>
 </div>
