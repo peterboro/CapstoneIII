@@ -35,9 +35,9 @@ In order to obtain a local copy of this repository run:
 - You can run test suites on this project by running `npm test`
 
 ## Live Demo
+[getyourphysique](https://get-your-physique.netlify.app/)
 
-
-
+[VideoLink](https://www.loom.com/share/09a790f978d949529122d1a5aa8a274e)
 ## Live Preview
 
 
